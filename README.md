@@ -120,7 +120,7 @@ Options:
   -v, --version          output version information and exit
 ```
 
-## Contributers
+## Contributors
 - McAN contributors
 
 ## Citation
