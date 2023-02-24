@@ -58,7 +58,7 @@ McAN can read variants from the Variant Call Format (VCF) or a mutation format. 
 ```
 <SampleName>\t<AccessionID>\t[<POS>(<VariantType>:<REF>-><ALT>)[;<POS>(<VariantType>:<REF>-><ALT>)]...]
 ```
-A perl program (convert/variant_mark.pl) is provided to generate files in mutation format from multiple genome sequences alignments file in fasta format.
+A perl program (convert/variant_mark.pl) is provided to generate a file in mutation format from a multiple genome sequences alignments file in fasta format.
 
 SampleName can take missing value '*', in which case it will be read later from a metadata file. The mutation data must include the reference sample which contains no mutation (EPI_ISL_454904 in example below). Here's an example:
 ```
