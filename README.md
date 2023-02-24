@@ -126,6 +126,26 @@ Options:
 - McAN contributors
 
 ## Citation
+
+Please cite this for McAN:
+```
+Li, Lun, Bo Xu, Dongmei Tian, Cuiping Li, Na Li, Anke Wang, Junwei Zhu et al. "McAN: an ultrafast haplotype network construction algorithm." bioRxiv (2022): 2022-07.
+```
+or BibTeX Format:
+```
+@article {Li2022.07.23.501111,
+	author = {Li, Lun and Xu, Bo and Tian, Dongmei and Li, Cuiping and Li, Na and Wang, Anke and Zhu, Junwei and Xue, Yongbiao and Zhang, Zhang and Bao, Yiming and Zhao, Wenming and Song, Shuhui},
+	title = {McAN: an ultrafast haplotype network construction algorithm},
+	elocation-id = {2022.07.23.501111},
+	year = {2022},
+	doi = {10.1101/2022.07.23.501111},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2022/07/25/2022.07.23.501111},
+	eprint = {https://www.biorxiv.org/content/early/2022/07/25/2022.07.23.501111.full.pdf},
+	journal = {bioRxiv}
+}
+```
+
 Please cite this for 2019 Novel Coronavirus Resource:
 ```
 Zhao WM, Song SH, Chen ML, et al. The 2019 novel coronavirus resource. Yi Chuan. 2020;42(2):212–221. doi:10.16288/j.yczz.20-030 [PMID: 32102777]
