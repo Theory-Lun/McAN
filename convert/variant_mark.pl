@@ -266,7 +266,7 @@ Description:
 Usage:
 $0 -fas -ref -o
 options:
--fas input file, multiple aligned sequecnes  #输入多序列比对的fasta格式文件
+-fas input file, multiple aligned sequences  #输入多序列比对的fasta格式文件
 -ref input string,  reference sequence id # 指定多序列比对中参考序列ID
 -o output directory
 -h help
