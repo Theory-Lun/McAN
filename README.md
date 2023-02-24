@@ -58,6 +58,8 @@ McAN can read variants from the Variant Call Format (VCF) or a mutation format. 
 ```
 <SampleName>\t<AccessionID>\t[<POS>(<VariantType>:<REF>-><ALT>)[;<POS>(<VariantType>:<REF>-><ALT>)]...]
 ```
+A perl program (convert/variant_mark.pl) is provided to generate files in mutation format from multiple genome sequences alignments file in fasta format.
+
 SampleName can take missing value '*', in which case it will be read later from a metadata file. The mutation data must include the reference sample which contains no mutation (EPI_ISL_454904 in example below). Here's an example:
 ```
 hCoV-19/England/ALDP-143B269/2021	EPI_ISL_1454756	1(Deletion:AATTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGT->-);241(SNP:C->T);913(SNP:C->T);2062(SNP:C->T);3037(SNP:C->T);3267(SNP:C->T);5388(SNP:C->A);5986(SNP:C->T);6954(SNP:T->C);9746(SNP:C->T);11287(Deletion:GTCTGGTTTT->G);14408(SNP:C->T);14590(SNP:T->G);14676(SNP:C->T);15279(SNP:C->T);16176(SNP:T->C);16391(SNP:C->T);17615(SNP:A->G);19656(SNP:G->A);21764(Deletion:ATACATG->A);21990(Deletion:TTTA->T);23063(SNP:A->T);23271(SNP:C->A);23403(SNP:A->G);23604(SNP:C->A);23709(SNP:C->T);24506(SNP:T->G);24914(SNP:G->C);26461(SNP:C->T);26730(SNP:G->C);27972(SNP:C->T);28048(SNP:G->T);28111(SNP:A->G);28270(Deletion:TA->T);28280(SNP:G->C);28281(SNP:A->T);28282(SNP:T->A);28881(SNP:G->A);28882(SNP:G->A);28883(SNP:G->C);28973(SNP:A->G);28977(SNP:C->T);29109(SNP:C->A);29541(SNP:C->T);29640(SNP:C->T);29773(SNP:G->T);29836(Deletion:CCCATGTGATTTTAATAGCTTCTTAGGAGAATGACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA->C)
